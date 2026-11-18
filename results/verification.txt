@@ -1,0 +1,10 @@
+test_neural_evaluation_does_not_call_teacher (test_pong_lab.PongTests.test_neural_evaluation_does_not_call_teacher) ... A.L.E: Arcade Learning Environment (version 0.10.2+c9d4b19)
+[Powered by Stella]
+ok
+test_no_ball_and_finite_features (test_pong_lab.PongTests.test_no_ball_and_finite_features) ... ok
+test_scoreboard_does_not_change_features (test_pong_lab.PongTests.test_scoreboard_does_not_change_features) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 26.614s
+
+OK

@@ -1,0 +1,592 @@
+{
+  "episodes": [
+    {
+      "seed": 100,
+      "policy": "teacher",
+      "player_score": 21,
+      "opponent_score": 17,
+      "return_": 4,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 47189,
+      "seconds": 15.303,
+      "round": 0
+    },
+    {
+      "seed": 101,
+      "policy": "teacher",
+      "player_score": 21,
+      "opponent_score": 4,
+      "return_": 17,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 42251,
+      "seconds": 13.665,
+      "round": 0
+    },
+    {
+      "seed": 102,
+      "policy": "teacher",
+      "player_score": 21,
+      "opponent_score": 12,
+      "return_": 9,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 50641,
+      "seconds": 16.141,
+      "round": 0
+    },
+    {
+      "seed": 103,
+      "policy": "teacher",
+      "player_score": 21,
+      "opponent_score": 6,
+      "return_": 15,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 41329,
+      "seconds": 12.938,
+      "round": 0
+    },
+    {
+      "seed": 200,
+      "policy": "neural",
+      "player_score": 5,
+      "opponent_score": 3,
+      "return_": 2,
+      "win": false,
+      "terminated": false,
+      "truncated": true,
+      "steps": 108000,
+      "seconds": 46.873,
+      "round": 1
+    },
+    {
+      "seed": 201,
+      "policy": "neural",
+      "player_score": 21,
+      "opponent_score": 7,
+      "return_": 14,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 53751,
+      "seconds": 23.31,
+      "round": 1
+    },
+    {
+      "seed": 300,
+      "policy": "neural",
+      "player_score": 21,
+      "opponent_score": 13,
+      "return_": 8,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 49783,
+      "seconds": 21.98,
+      "round": 2
+    },
+    {
+      "seed": 301,
+      "policy": "neural",
+      "player_score": 21,
+      "opponent_score": 16,
+      "return_": 5,
+      "win": true,
+      "terminated": true,
+      "truncated": false,
+      "steps": 53123,
+      "seconds": 23.226,
+      "round": 2
+    }
+  ],
+  "history": [
+    {
+      "round": 0,
+      "epoch": 1,
+      "samples": 181410,
+      "loss": 0.929333261420134,
+      "accuracy": 0.5968799955900997
+    },
+    {
+      "round": 0,
+      "epoch": 2,
+      "samples": 181410,
+      "loss": 0.5046388055105127,
+      "accuracy": 0.8269996141337302
+    },
+    {
+      "round": 0,
+      "epoch": 3,
+      "samples": 181410,
+      "loss": 0.316143531650083,
+      "accuracy": 0.9036988038145637
+    },
+    {
+      "round": 0,
+      "epoch": 4,
+      "samples": 181410,
+      "loss": 0.23556600432153194,
+      "accuracy": 0.9504602833360896
+    },
+    {
+      "round": 0,
+      "epoch": 5,
+      "samples": 181410,
+      "loss": 0.1898910911376234,
+      "accuracy": 0.9639711151535196
+    },
+    {
+      "round": 0,
+      "epoch": 6,
+      "samples": 181410,
+      "loss": 0.16066239700513996,
+      "accuracy": 0.969863844330522
+    },
+    {
+      "round": 0,
+      "epoch": 7,
+      "samples": 181410,
+      "loss": 0.1416445260923435,
+      "accuracy": 0.9703709828565129
+    },
+    {
+      "round": 0,
+      "epoch": 8,
+      "samples": 181410,
+      "loss": 0.12598509757981452,
+      "accuracy": 0.9741083732980541
+    },
+    {
+      "round": 0,
+      "epoch": 9,
+      "samples": 181410,
+      "loss": 0.11484808911825645,
+      "accuracy": 0.9745769251970674
+    },
+    {
+      "round": 0,
+      "epoch": 10,
+      "samples": 181410,
+      "loss": 0.10619612293601607,
+      "accuracy": 0.9744997519431123
+    },
+    {
+      "round": 0,
+      "epoch": 11,
+      "samples": 181410,
+      "loss": 0.09899103699879257,
+      "accuracy": 0.9750344523455157
+    },
+    {
+      "round": 0,
+      "epoch": 12,
+      "samples": 181410,
+      "loss": 0.09357070302902144,
+      "accuracy": 0.9744611653161347
+    },
+    {
+      "round": 0,
+      "epoch": 13,
+      "samples": 181410,
+      "loss": 0.0885698164400925,
+      "accuracy": 0.9753155834849236
+    },
+    {
+      "round": 0,
+      "epoch": 14,
+      "samples": 181410,
+      "loss": 0.08380699373498705,
+      "accuracy": 0.9764952317953807
+    },
+    {
+      "round": 0,
+      "epoch": 15,
+      "samples": 181410,
+      "loss": 0.08080530271454056,
+      "accuracy": 0.9760432170222149
+    },
+    {
+      "round": 1,
+      "epoch": 1,
+      "samples": 343161,
+      "loss": 0.07068829883332328,
+      "accuracy": 0.9783483554366609
+    },
+    {
+      "round": 1,
+      "epoch": 2,
+      "samples": 343161,
+      "loss": 0.06471708405841974,
+      "accuracy": 0.9779054146595912
+    },
+    {
+      "round": 1,
+      "epoch": 3,
+      "samples": 343161,
+      "loss": 0.06097788542437127,
+      "accuracy": 0.9788029525499693
+    },
+    {
+      "round": 1,
+      "epoch": 4,
+      "samples": 343161,
+      "loss": 0.05684539274098672,
+      "accuracy": 0.9805397466495318
+    },
+    {
+      "round": 1,
+      "epoch": 5,
+      "samples": 343161,
+      "loss": 0.05500411307325032,
+      "accuracy": 0.9803328466812954
+    },
+    {
+      "round": 1,
+      "epoch": 6,
+      "samples": 343161,
+      "loss": 0.05351310658571,
+      "accuracy": 0.9799365312491805
+    },
+    {
+      "round": 1,
+      "epoch": 7,
+      "samples": 343161,
+      "loss": 0.05100058638912851,
+      "accuracy": 0.9809185775772888
+    },
+    {
+      "round": 1,
+      "epoch": 8,
+      "samples": 343161,
+      "loss": 0.05029485108734807,
+      "accuracy": 0.9802512523276247
+    },
+    {
+      "round": 1,
+      "epoch": 9,
+      "samples": 343161,
+      "loss": 0.04930564850733085,
+      "accuracy": 0.9801317748811782
+    },
+    {
+      "round": 1,
+      "epoch": 10,
+      "samples": 343161,
+      "loss": 0.04680313706830245,
+      "accuracy": 0.98169955210528
+    },
+    {
+      "round": 1,
+      "epoch": 11,
+      "samples": 343161,
+      "loss": 0.04742346341767387,
+      "accuracy": 0.980265822747923
+    },
+    {
+      "round": 1,
+      "epoch": 12,
+      "samples": 343161,
+      "loss": 0.04594922885192125,
+      "accuracy": 0.9805135198929948
+    },
+    {
+      "round": 1,
+      "epoch": 13,
+      "samples": 343161,
+      "loss": 0.04531481165319553,
+      "accuracy": 0.980810756467081
+    },
+    {
+      "round": 1,
+      "epoch": 14,
+      "samples": 343161,
+      "loss": 0.04502920479239897,
+      "accuracy": 0.9805222621451738
+    },
+    {
+      "round": 1,
+      "epoch": 15,
+      "samples": 343161,
+      "loss": 0.04405136458694553,
+      "accuracy": 0.9809069212410502
+    },
+    {
+      "round": 2,
+      "epoch": 1,
+      "samples": 446067,
+      "loss": 0.04628548606960837,
+      "accuracy": 0.9798415933032482
+    },
+    {
+      "round": 2,
+      "epoch": 2,
+      "samples": 446067,
+      "loss": 0.046558216120994915,
+      "accuracy": 0.9793663283766788
+    },
+    {
+      "round": 2,
+      "epoch": 3,
+      "samples": 446067,
+      "loss": 0.0440459982391155,
+      "accuracy": 0.9808616194428191
+    },
+    {
+      "round": 2,
+      "epoch": 4,
+      "samples": 446067,
+      "loss": 0.04478286139500891,
+      "accuracy": 0.9798684950915445
+    },
+    {
+      "round": 2,
+      "epoch": 5,
+      "samples": 446067,
+      "loss": 0.04456135668794447,
+      "accuracy": 0.9799469586407423
+    },
+    {
+      "round": 2,
+      "epoch": 6,
+      "samples": 446067,
+      "loss": 0.04445609865727924,
+      "accuracy": 0.9799402331936682
+    },
+    {
+      "round": 2,
+      "epoch": 7,
+      "samples": 446067,
+      "loss": 0.04363058824991639,
+      "accuracy": 0.9802316692335457
+    },
+    {
+      "round": 2,
+      "epoch": 8,
+      "samples": 446067,
+      "loss": 0.04251776528928273,
+      "accuracy": 0.9807584959210164
+    },
+    {
+      "round": 2,
+      "epoch": 9,
+      "samples": 446067,
+      "loss": 0.043304367687444355,
+      "accuracy": 0.9801397547901997
+    },
+    {
+      "round": 2,
+      "epoch": 10,
+      "samples": 446067,
+      "loss": 0.042560948244193014,
+      "accuracy": 0.9806598560305964
+    },
+    {
+      "round": 2,
+      "epoch": 11,
+      "samples": 446067,
+      "loss": 0.042216118470846484,
+      "accuracy": 0.9806957250816581
+    },
+    {
+      "round": 2,
+      "epoch": 12,
+      "samples": 446067,
+      "loss": 0.04461260650602338,
+      "accuracy": 0.9790748923368015
+    },
+    {
+      "round": 2,
+      "epoch": 13,
+      "samples": 446067,
+      "loss": 0.04254018562370237,
+      "accuracy": 0.9802675382846074
+    },
+    {
+      "round": 2,
+      "epoch": 14,
+      "samples": 446067,
+      "loss": 0.04255750779287438,
+      "accuracy": 0.9801128530019033
+    },
+    {
+      "round": 2,
+      "epoch": 15,
+      "samples": 446067,
+      "loss": 0.04141711000232612,
+      "accuracy": 0.9809512920704737
+    }
+  ],
+  "validation": [
+    {
+      "round": 0,
+      "summary": {
+        "episodes": 3,
+        "wins": 3,
+        "win_rate": 1.0,
+        "win_rate_wilson95": [
+          0.43849391955098227,
+          1.0
+        ],
+        "mean_return": 10.333333333333334,
+        "std_return": 4.725815626252608,
+        "min_return": 5,
+        "max_return": 14,
+        "truncated": 0
+      },
+      "episodes": [
+        {
+          "seed": 1000,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 7,
+          "return_": 14,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 46793,
+          "seconds": 21.259
+        },
+        {
+          "seed": 1001,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 16,
+          "return_": 5,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 48985,
+          "seconds": 22.98
+        },
+        {
+          "seed": 1002,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 9,
+          "return_": 12,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 41311,
+          "seconds": 18.684
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "summary": {
+        "episodes": 3,
+        "wins": 2,
+        "win_rate": 0.6666666666666666,
+        "win_rate_wilson95": [
+          0.2076549551264879,
+          0.9385096847238394
+        ],
+        "mean_return": 11.0,
+        "std_return": 5.196152422706632,
+        "min_return": 5,
+        "max_return": 14,
+        "truncated": 1
+      },
+      "episodes": [
+        {
+          "seed": 1000,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 7,
+          "return_": 14,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 43443,
+          "seconds": 26.718
+        },
+        {
+          "seed": 1001,
+          "policy": "neural",
+          "player_score": 6,
+          "opponent_score": 1,
+          "return_": 5,
+          "win": false,
+          "terminated": false,
+          "truncated": true,
+          "steps": 108000,
+          "seconds": 48.661
+        },
+        {
+          "seed": 1002,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 7,
+          "return_": 14,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 45773,
+          "seconds": 21.148
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "summary": {
+        "episodes": 3,
+        "wins": 2,
+        "win_rate": 0.6666666666666666,
+        "win_rate_wilson95": [
+          0.2076549551264879,
+          0.9385096847238394
+        ],
+        "mean_return": 9.333333333333334,
+        "std_return": 3.214550253664318,
+        "min_return": 7,
+        "max_return": 13,
+        "truncated": 1
+      },
+      "episodes": [
+        {
+          "seed": 1000,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 8,
+          "return_": 13,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 41399,
+          "seconds": 17.82
+        },
+        {
+          "seed": 1001,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 13,
+          "return_": 8,
+          "win": true,
+          "terminated": true,
+          "truncated": false,
+          "steps": 52877,
+          "seconds": 23.34
+        },
+        {
+          "seed": 1002,
+          "policy": "neural",
+          "player_score": 21,
+          "opponent_score": 14,
+          "return_": 7,
+          "win": false,
+          "terminated": false,
+          "truncated": true,
+          "steps": 108000,
+          "seconds": 51.524
+        }
+      ]
+    }
+  ]
+}

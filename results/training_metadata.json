@@ -1,0 +1,48 @@
+{
+  "config": {
+    "env_id": "ALE/Pong-v5",
+    "frameskip": 1,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_episode_steps": 108000
+  },
+  "algorithm": "behavioral cloning + DAgger",
+  "seed": 42,
+  "training_seeds": [
+    100,
+    101,
+    102,
+    103,
+    200,
+    201,
+    300,
+    301
+  ],
+  "validation_seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "epochs_per_round": 15,
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "architecture": [
+    7,
+    64,
+    64,
+    3
+  ],
+  "parameters": 4867,
+  "samples": 446067,
+  "seconds": 457.72317010000006,
+  "python": "3.12.13",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.5",
+  "gymnasium": "1.4.0",
+  "ale_py": "0.10.2",
+  "device": "cpu",
+  "policy_sha256": "6650ec5b2f5cde5f0e39ae604887124e9e73c8211cf552ff13db0a71c9a239de",
+  "selected_round": 0,
+  "selection_rule": "validation wins, then mean return; before holdout evaluation"
+}

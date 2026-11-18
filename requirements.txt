@@ -1,0 +1,9 @@
+ale-py==0.10.2
+gymnasium==1.4.0
+numpy==2.5.5
+torch==2.15.0
+imageio==2.38.2
+imageio-ffmpeg==0.8.1
+pillow==13.0.0
+matplotlib==3.11.2
+reportlab==5.1.0

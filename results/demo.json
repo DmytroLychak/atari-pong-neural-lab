@@ -1,0 +1,12 @@
+{
+  "seed": 10000,
+  "policy": "neural",
+  "player_score": 21,
+  "opponent_score": 15,
+  "return_": 6,
+  "win": true,
+  "terminated": true,
+  "truncated": false,
+  "steps": 52959,
+  "seconds": 46.916
+}
