@@ -13,4 +13,4 @@ if [ -z "$python_path" ]; then
 fi
 if [ ! -x .venv/bin/python ]; then "$python_path" -m venv .venv; fi
 .venv/bin/python -m pip install -r requirements.txt
-echo "Готово. Відкрий файл Запустити_Pong.command."
+echo "Готово. Відкрий Почати_навчання.command для живого навчання."

@@ -1,0 +1,23 @@
+{
+  "timesteps": 2002944,
+  "adam_steps": 23472,
+  "weight_change_l2": 22.61075782775879,
+  "episodes": 313,
+  "elapsed_seconds": 334.53675074999956,
+  "initialization": "random weights",
+  "finished": true,
+  "state": "НАВЧАННЯ ЗАВЕРШЕНО",
+  "paused": false,
+  "preview": "actual training environment 1",
+  "last_50_mean_raw_return": 7.62,
+  "python": "3.12.0",
+  "fresh_initial_timesteps": 0,
+  "fresh_700k_matches_previously_tested_policy_tensors": true,
+  "prepared_model_sha256": "88ad569e316bf6642682c9ad4d50e9ce1a3798e65e3cf12231ecd33e9865aad7",
+  "training_configuration": {
+    "seed": 42,
+    "environments": 6,
+    "requested_steps": 2000000
+  },
+  "run_folder": "live_20261121_102051_6915"
+}
