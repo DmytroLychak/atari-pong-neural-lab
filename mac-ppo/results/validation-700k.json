@@ -1,0 +1,126 @@
+{
+  "model": "runs/main_ppo/step_00700002.zip",
+  "environment": "ALE/Pong-v5",
+  "frameskip": 4,
+  "sticky_action_probability": 0.25,
+  "shaped_rewards": false,
+  "deterministic_policy": true,
+  "episodes": 10,
+  "first_seed": 1000,
+  "wins": 10,
+  "win_rate": 1.0,
+  "win_rate_wilson_95": [
+    0.7224672001371107,
+    0.9999999999999999
+  ],
+  "mean_return": 12.7,
+  "std_return": 3.1287200080686173,
+  "min_return": 8.0,
+  "max_return": 17.0,
+  "mean_player_points": 21.0,
+  "mean_opponent_points": 8.3,
+  "truncated_episodes": 0,
+  "elapsed_seconds": 23.54400908300022,
+  "games": [
+    {
+      "seed": 1000,
+      "return_": 14.0,
+      "player": 21,
+      "opponent": 7,
+      "steps": 6223,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1001,
+      "return_": 16.0,
+      "player": 21,
+      "opponent": 5,
+      "steps": 3800,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1002,
+      "return_": 13.0,
+      "player": 21,
+      "opponent": 8,
+      "steps": 5050,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1003,
+      "return_": 14.0,
+      "player": 21,
+      "opponent": 7,
+      "steps": 5131,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1004,
+      "return_": 8.0,
+      "player": 21,
+      "opponent": 13,
+      "steps": 5824,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1005,
+      "return_": 11.0,
+      "player": 21,
+      "opponent": 10,
+      "steps": 7106,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1006,
+      "return_": 11.0,
+      "player": 21,
+      "opponent": 10,
+      "steps": 5655,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1007,
+      "return_": 15.0,
+      "player": 21,
+      "opponent": 6,
+      "steps": 5767,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1008,
+      "return_": 17.0,
+      "player": 21,
+      "opponent": 4,
+      "steps": 6119,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    },
+    {
+      "seed": 1009,
+      "return_": 8.0,
+      "player": 21,
+      "opponent": 13,
+      "steps": 7810,
+      "terminated": true,
+      "truncated": false,
+      "won": true
+    }
+  ]
+}

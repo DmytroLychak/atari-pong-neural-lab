@@ -1,0 +1,10 @@
+torch==2.15.0
+gymnasium[atari]==1.4.0
+ale-py==0.12.1
+stable-baselines3==2.9.2
+numpy==2.5.5
+pygame==2.6.1
+pillow==13.0.0
+imageio==2.38.2
+imageio-ffmpeg==0.8.1
+matplotlib==3.11.2

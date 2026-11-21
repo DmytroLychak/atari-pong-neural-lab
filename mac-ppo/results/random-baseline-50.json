@@ -1,0 +1,526 @@
+{
+  "model": "uniform random action baseline",
+  "environment": "ALE/Pong-v5",
+  "frameskip": 4,
+  "sticky_action_probability": 0.25,
+  "shaped_rewards": false,
+  "deterministic_policy": false,
+  "episodes": 50,
+  "first_seed": 700000,
+  "wins": 0,
+  "win_rate": 0.0,
+  "win_rate_wilson_95": [
+    6.938893903907228e-18,
+    0.07134759913335872
+  ],
+  "mean_return": -20.6,
+  "std_return": 0.6060915267313265,
+  "min_return": -21.0,
+  "max_return": -19.0,
+  "mean_player_points": 0.4,
+  "mean_opponent_points": 21.0,
+  "truncated_episodes": 0,
+  "elapsed_seconds": 15.581207165999786,
+  "games": [
+    {
+      "seed": 700000,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1101,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700001,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 824,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700002,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 884,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700003,
+      "return_": -19.0,
+      "player": 2,
+      "opponent": 21,
+      "steps": 1074,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700004,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 982,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700005,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1220,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700006,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 945,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700007,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 922,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700008,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1126,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700009,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1104,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700010,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1005,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700011,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1127,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700012,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1007,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700013,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 980,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700014,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 945,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700015,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1044,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700016,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1189,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700017,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1065,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700018,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1042,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700019,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1130,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700020,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1281,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700021,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 944,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700022,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1068,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700023,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 922,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700024,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1012,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700025,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 981,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700026,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 826,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700027,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 824,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700028,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1005,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700029,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 946,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700030,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 824,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700031,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 944,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700032,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 824,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700033,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1064,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700034,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 764,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700035,
+      "return_": -19.0,
+      "player": 2,
+      "opponent": 21,
+      "steps": 1135,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700036,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1105,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700037,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 764,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700038,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 944,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700039,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 764,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700040,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 946,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700041,
+      "return_": -19.0,
+      "player": 2,
+      "opponent": 21,
+      "steps": 1014,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700042,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 884,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700043,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 825,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700044,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 884,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700045,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1066,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700046,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 945,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700047,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 921,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700048,
+      "return_": -21.0,
+      "player": 0,
+      "opponent": 21,
+      "steps": 1006,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    },
+    {
+      "seed": 700049,
+      "return_": -20.0,
+      "player": 1,
+      "opponent": 21,
+      "steps": 1102,
+      "terminated": true,
+      "truncated": false,
+      "won": false
+    }
+  ]
+}

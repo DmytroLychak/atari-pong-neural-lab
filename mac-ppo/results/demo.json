@@ -1,0 +1,12 @@
+{
+  "seed": 900000,
+  "model": "models/pong_ppo.zip",
+  "transitions": 4014,
+  "player": 21,
+  "opponent": 6,
+  "terminated": true,
+  "truncated": false,
+  "playback_speed": 2,
+  "video_fps": 30,
+  "cut_or_edited": false
+}
