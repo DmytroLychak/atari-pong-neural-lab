@@ -186,7 +186,7 @@ PPO збирає дані блоками; фактичний лічильник 
 - `results/random-baseline-50.json`, `initial-baseline-50.json` — базові політики.
 - `report.pdf`, `report.docx` — короткий звіт для викладача.
 
-SHA-256 обраного checkpoint: `d60348ec7956309d5b16efe1aa2afaae01e435f9d9a770f7d02a918e23ec89c4`.
+SHA-256 обраного checkpoint: `88ad569e316bf6642682c9ad4d50e9ce1a3798e65e3cf12231ecd33e9865aad7`.
 Версії пакетів зафіксовано у `requirements.txt` та `requirements-lock.txt`.
 Однаковий seed полегшує повторення, але інша платформа/бібліотеки можуть
 змінити числову траєкторію нового навчання.
@@ -199,3 +199,6 @@ SHA-256 обраного checkpoint: `d60348ec7956309d5b16efe1aa2afaae01e435f9d9
 - [Проєкт викладача](https://github.com/YuriiDehtiar/TrainAI_Snake) і надана презентація
   SnakeAI v9: методичний приклад Actor/Critic, навчання і незалежного тесту.
   Його код, середовище Snake та ваги сюди не копіювалися.
+
+Формат tensor streams у checkpoint адаптовано також для Python 3.12.0.
+Значення ваг і дані експерименту не змінювалися.

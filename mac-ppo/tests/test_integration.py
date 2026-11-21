@@ -2,12 +2,14 @@
 
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 import numpy as np
 import torch
 from stable_baselines3 import PPO
 
 from pong_ai.environment import make_env
+from pong_ai.checkpoint import save_model
 
 
 class IntegrationTests(unittest.TestCase):
@@ -30,6 +32,12 @@ class IntegrationTests(unittest.TestCase):
     def test_submitted_model_uses_valid_actions_and_original_scores(self):
         torch.set_num_threads(1)
         model = PPO.load(Path(__file__).resolve().parents[1] / "models/pong_ppo.zip", device="cpu")
+        with TemporaryDirectory() as temporary:
+            path=Path(temporary)/"roundtrip.zip"
+            save_model(model,path)
+            restored=PPO.load(path,device="cpu")
+            for name, tensor in model.policy.state_dict().items():
+                self.assertTrue(torch.equal(tensor,restored.policy.state_dict()[name]),name)
         env = make_env()
         total = 0.0
         try:

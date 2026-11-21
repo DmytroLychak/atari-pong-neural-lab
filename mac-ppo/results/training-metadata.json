@@ -96,7 +96,7 @@
   "parameter_count": 9988,
   "actor_parameter_count": 5059,
   "critic_parameter_count": 4929,
-  "sha256": "d60348ec7956309d5b16efe1aa2afaae01e435f9d9a770f7d02a918e23ec89c4",
+  "sha256": "88ad569e316bf6642682c9ad4d50e9ce1a3798e65e3cf12231ecd33e9865aad7",
   "hardware": "Apple M2, 8 GB unified RAM; CPU, one PyTorch thread and six emulator processes",
   "config": {
     "learning_rate": 0.0003,
@@ -131,5 +131,8 @@
     "frameskip": 4,
     "sticky_action_probability": 0.25,
     "initialization": "random weights"
-  }
+  },
+  "original_checkpoint_sha256": "d60348ec7956309d5b16efe1aa2afaae01e435f9d9a770f7d02a918e23ec89c4",
+  "serialization": "SB3 archive with PyTorch legacy tensor streams for Python 3.12.0 compatibility; unchanged policy and optimizer tensors",
+  "policy_tensor_sha256": "d6f2ad16d10daabd7e577e40fd6862e307f1530cb5ea67f61b8fe419d3fd1511"
 }

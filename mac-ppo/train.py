@@ -15,6 +15,7 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv
 
 from pong_ai.environment import FEATURES, make_env
+from pong_ai.checkpoint import save_model
 
 
 class SaveProgress(BaseCallback):
@@ -42,8 +43,8 @@ class SaveProgress(BaseCallback):
                     length=info["episode"]["l"], shaped_return=info["episode"]["r"]))
         if self.num_timesteps >= self.next_save:
             self.episodes_file.flush()
-            self.model.save(self.output / "latest")
-            self.model.save(self.output / f"step_{self.num_timesteps:08d}")
+            save_model(self.model, self.output / "latest")
+            save_model(self.model, self.output / f"step_{self.num_timesteps:08d}")
             data = {"timesteps": self.num_timesteps, "elapsed_seconds": time.perf_counter() - self.start}
             (self.output / "progress.json").write_text(json.dumps(data, indent=2))
             print("CHECKPOINT", json.dumps(data), flush=True)
@@ -86,13 +87,13 @@ def main():
     (args.out / "config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2))
     model = PPO.load(args.resume, env=vec, device="cpu") if args.resume else PPO("MlpPolicy", vec, **options)
     if not args.resume:
-        model.save(args.out / "initial")
+        save_model(model, args.out / "initial")
     from stable_baselines3.common.logger import configure
     model.set_logger(configure(str(args.out), ["csv"]))
     try:
         model.learn(args.steps, callback=SaveProgress(args.out, 100_000), reset_num_timesteps=not bool(args.resume))
     finally:
-        model.save(args.out / "latest")
+        save_model(model, args.out / "latest")
         vec.close()
     print("Saved", args.out / "latest.zip", flush=True)
 
